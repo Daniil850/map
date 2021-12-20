@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50707952770E20E009D2A77 /* Silom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A50707942770E20E009D2A77 /* Silom.ttf */; };
+		A50707972770E84E009D2A77 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50707962770E84E009D2A77 /* MapVC.swift */; };
 		A5CB4F012770D2350012A08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4F002770D2350012A08E /* AppDelegate.swift */; };
 		A5CB4F032770D2350012A08E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4F022770D2350012A08E /* SceneDelegate.swift */; };
-		A5CB4F052770D2350012A08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4F042770D2350012A08E /* ViewController.swift */; };
+		A5CB4F052770D2350012A08E /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB4F042770D2350012A08E /* LocationVC.swift */; };
 		A5CB4F082770D2360012A08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB4F062770D2360012A08E /* Main.storyboard */; };
 		A5CB4F0A2770D23A0012A08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CB4F092770D23A0012A08E /* Assets.xcassets */; };
 		A5CB4F0D2770D23A0012A08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB4F0B2770D23A0012A08E /* LaunchScreen.storyboard */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A50707942770E20E009D2A77 /* Silom.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silom.ttf; sourceTree = "<group>"; };
+		A50707962770E84E009D2A77 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		A5CB4EFD2770D2350012A08E /* maps_Zgorodny_Zyablov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "maps_Zgorodny\U001f_Zyablov.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CB4F002770D2350012A08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CB4F022770D2350012A08E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5CB4F042770D2350012A08E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CB4F042770D2350012A08E /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		A5CB4F072770D2360012A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5CB4F092770D23A0012A08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CB4F0C2770D23A0012A08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A50707932770E17E009D2A77 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A50707942770E20E009D2A77 /* Silom.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		A5CB4EF42770D2350012A08E = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +111,11 @@
 		A5CB4EFF2770D2350012A08E /* maps_Zgorodny_Zyablov */ = {
 			isa = PBXGroup;
 			children = (
+				A50707932770E17E009D2A77 /* fonts */,
 				A5CB4F002770D2350012A08E /* AppDelegate.swift */,
 				A5CB4F022770D2350012A08E /* SceneDelegate.swift */,
-				A5CB4F042770D2350012A08E /* ViewController.swift */,
+				A5CB4F042770D2350012A08E /* LocationVC.swift */,
+				A50707962770E84E009D2A77 /* MapVC.swift */,
 				A5CB4F062770D2360012A08E /* Main.storyboard */,
 				A5CB4F092770D23A0012A08E /* Assets.xcassets */,
 				A5CB4F0B2770D23A0012A08E /* LaunchScreen.storyboard */,
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CB4F0D2770D23A0012A08E /* LaunchScreen.storyboard in Resources */,
+				A50707952770E20E009D2A77 /* Silom.ttf in Resources */,
 				A5CB4F0A2770D23A0012A08E /* Assets.xcassets in Resources */,
 				A5CB4F082770D2360012A08E /* Main.storyboard in Resources */,
 			);
@@ -258,7 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB4F052770D2350012A08E /* ViewController.swift in Sources */,
+				A5CB4F052770D2350012A08E /* LocationVC.swift in Sources */,
+				A50707972770E84E009D2A77 /* MapVC.swift in Sources */,
 				A5CB4F012770D2350012A08E /* AppDelegate.swift in Sources */,
 				A5CB4F032770D2350012A08E /* SceneDelegate.swift in Sources */,
 			);
